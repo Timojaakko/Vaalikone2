@@ -15,7 +15,9 @@
 </head>
 <body>
 <h2>Vaalikone</h2>
-
+<h3>Vastaa kysymyksiin:</h3>
+	<h4>1: Vahvasti eri mieltä 2: Jokseenkin eri mieltä 3: En osaa sanoa 4: Jokseenkin samaa mieltä 5: Vahvasti samaa mieltä </h4>
+	
 	<ol>
 		<c:forEach var="kysymys" items="${requestScope.questionlist}" >			
 			<li>${kysymykset.id}: ${kysymykset.kysymys} 
