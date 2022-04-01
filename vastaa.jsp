@@ -16,8 +16,35 @@
 <body>
 <h2>Vaalikone</h2>
 <h3>Vastaa kysymyksiin:</h3>
-	<h4>1: Vahvasti eri mieltä 2: Jokseenkin eri mieltä 3: En osaa sanoa 4: Jokseenkin samaa mieltä 5: Vahvasti samaa mieltä </h4>
+	<div>
+		<input type = "radio" id = "Vahvasti eri mieltä" name = "vastaus" value = "Vahvasti eri mieltä"
+			checked>
+		<label for = "Vahvasti eri mieltä" >Vahvasti eri mieltä</label>
+	</div>
 	
+	<div>
+		<input type = "radio" id = "Jokseenkin eri mieltä" name = "vastaus" value = "Jokseenkin eri mieltä"
+			checked>
+		<label for = "Jokseenkin eri mieltä" >Jokseenkin eri mieltä</label>
+	</div>
+	
+	<div>
+		<input type = "radio" id = "En osaa sanoa" name = "vastaus" value = "En osaa sanoa"
+			checked>
+		<label for = "En osaa sanoa" >En osaa sanoa</label>
+	</div>
+	
+	<div>
+		<input type = "radio" id = "Jokseenkin samaa mieltä" name = "vastaus" value = "Jokseenkin samaa mieltä"
+			checked>
+		<label for = "Jokseenkin samaa mieltä" >Jokseenkin samaa mieltä</label>
+	</div>
+	
+	<div>
+		<input type = "radio" id = "Vahvasti samaa mieltä" name = "vastaus" value = "Vahvasti samaa mieltä"
+			checked>
+		<label for = "Vahvasti samaa mieltä" >Vahvasti samaa mieltä</label>
+	</div>
 	<ol>
 		<c:forEach var="kysymys" items="${requestScope.questionlist}" >			
 			<li>${kysymykset.id}: ${kysymykset.kysymys} 
@@ -32,15 +59,6 @@ for (int i=0;questionList!=null && i<questionList.size();i++){
 	out.println(q.getId()+": "+q.getKysymys()+"<a href='/delete?id="+q.getId()+"'>delete</a> <a href='/readtoupdate?id="+q.getId()+"'>update</a>");
 }
 %>
-
-<form>
-<input type="radio" name="1">1 
-<input type="radio" name="2">2 
-<input type="radio" name="3">3 
-<input type="radio" name="4">4 
-<input type="radio" name="5">5 
-
-</form>
 
 </body>
 </html>
