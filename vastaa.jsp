@@ -17,31 +17,31 @@
 <h2>Vaalikone</h2>
 <h3>Vastaa kysymyksiin:</h3>
 	<div>
-		<input type = "radio" id = "Vahvasti eri mieltä" name = "vastaus" value = "Vahvasti eri mieltä"
+		<input type = "radio" id = "Vahvasti eri mieltä" name = "vastaus" value = "1"
 			checked>
 		<label for = "Vahvasti eri mieltä" >Vahvasti eri mieltä</label>
 	</div>
 	
 	<div>
-		<input type = "radio" id = "Jokseenkin eri mieltä" name = "vastaus" value = "Jokseenkin eri mieltä"
+		<input type = "radio" id = "Jokseenkin eri mieltä" name = "vastaus" value = "2"
 			checked>
 		<label for = "Jokseenkin eri mieltä" >Jokseenkin eri mieltä</label>
 	</div>
 	
 	<div>
-		<input type = "radio" id = "En osaa sanoa" name = "vastaus" value = "En osaa sanoa"
+		<input type = "radio" id = "En osaa sanoa" name = "vastaus" value = "3"
 			checked>
 		<label for = "En osaa sanoa" >En osaa sanoa</label>
 	</div>
 	
 	<div>
-		<input type = "radio" id = "Jokseenkin samaa mieltä" name = "vastaus" value = "Jokseenkin samaa mieltä"
+		<input type = "radio" id = "Jokseenkin samaa mieltä" name = "vastaus" value = "4"
 			checked>
 		<label for = "Jokseenkin samaa mieltä" >Jokseenkin samaa mieltä</label>
 	</div>
 	
 	<div>
-		<input type = "radio" id = "Vahvasti samaa mieltä" name = "vastaus" value = "Vahvasti samaa mieltä"
+		<input type = "radio" id = "Vahvasti samaa mieltä" name = "vastaus" value = "5"
 			checked>
 		<label for = "Vahvasti samaa mieltä" >Vahvasti samaa mieltä</label>
 	</div>
